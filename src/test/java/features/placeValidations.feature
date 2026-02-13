@@ -19,3 +19,13 @@ Feature: Validating Place APIs
     When user calls "deletePlaceAPI" with "POST" http request
     Then the API call got success with status code 200
     And "status" in response body is "OK"
+
+  Scenario: Call OAuth protected API
+    Given I call OAuth server to obtain access token
+    When I use the access token to call getCourseDetails API
+    Then course instructor is "RahulShetty"
+    Then get the price of course "SoapUI Webservices testing"
+    And "webAutomation" courses include the following titles
+      | Selenium Webdriver Java |
+      | Cypress                 |
+      | Protractor              |

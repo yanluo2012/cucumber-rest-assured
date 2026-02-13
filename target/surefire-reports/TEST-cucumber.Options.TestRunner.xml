@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cucumber.Options.TestRunner" time="10.525" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cucumber.Options.TestRunner" time="17.01" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/yan.lai/workspace_atlas_v4/cucumber_rest_assured/target/surefire/surefirebooter-20260119114143899_3.jar /Users/yan.lai/workspace_atlas_v4/cucumber_rest_assured/target/surefire 2026-01-19T11-41-43_721-jvmRun1 surefire-20260119114143899_1tmp surefire_0-20260119114143899_2tmp"/>
+    <property name="sun.java.command" value="/Users/yan.lai/workspace_atlas_v4/cucumber_rest_assured/target/surefire/surefirebooter-20260213140428776_3.jar /Users/yan.lai/workspace_atlas_v4/cucumber_rest_assured/target/surefire 2026-02-13T14-04-28_603-jvmRun1 surefire-20260213140428776_1tmp surefire_0-20260213140428776_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/yan.lai/workspace_atlas_v4/cucumber_rest_assured/target/test-classes:/Users/yan.lai/workspace_atlas_v4/cucumber_rest_assured/target/classes:/Users/yan.lai/.m2/repository/io/rest-assured/rest-assured/6.0.0/rest-assured-6.0.0.jar:/Users/yan.lai/.m2/repository/org/apache/groovy/groovy/5.0.3/groovy-5.0.3.jar:/Users/yan.lai/.m2/repository/org/apache/groovy/groovy-xml/5.0.3/groovy-xml-5.0.3.jar:/Users/yan.lai/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/yan.lai/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/yan.lai/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/yan.lai/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/yan.lai/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/yan.lai/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/yan.lai/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/yan.lai/.m2/repository/io/rest-assured/json-path/6.0.0/json-path-6.0.0.jar:/Users/yan.lai/.m2/repository/org/apache/groovy/groovy-json/5.0.3/groovy-json-5.0.3.jar:/Users/yan.lai/.m2/repository/io/rest-assured/rest-assured-common/6.0.0/rest-assured-common-6.0.0.jar:/Users/yan.lai/.m2/repository/io/rest-assured/xml-path/6.0.0/xml-path-6.0.0.jar:/Users/yan.lai/.m2/repository/org/apache/commons/commons-lang3/3.19.0/commons-lang3-3.19.0.jar:/Users/yan.lai/.m2/repository/io/cucumber/cucumber-java/7.33.0/cucumber-java-7.33.0.jar:/Users/yan.lai/.m2/repository/io/cucumber/cucumber-core/7.33.0/cucumber-core-7.33.0.jar:/Users/yan.lai/.m2/repository/io/cucumber/cucumber-gherkin/7.33.0/cucumber-gherkin-7.33.0.jar:/Users/yan.lai/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.33.0/cucumber-gherkin-messages-7.33.0.jar:/Users/yan.lai/.m2/repository/io/cucumber/gherkin/36.1.0/gherkin-36.1.0.jar:/Users/yan.lai/.m2/repository/io/cucumber/messages/30.1.0/messages-30.1.0.jar:/Users/yan.lai/.m2/repository/io/cucumber/pretty-formatter/2.4.1/pretty-formatter-2.4.1.jar:/Users/yan.lai/.m2/repository/io/cucumber/query/14.7.0/query-14.7.0.jar:/Users/yan.lai/.m2/repository/io/cucumber/teamcity-formatter/0.2.0/teamcity-formatter-0.2.0.jar:/Users/yan.lai/.m2/repository/io/cucumber/testng-xml-formatter/0.7.0/testng-xml-formatter-0.7.0.jar:/Users/yan.lai/.m2/repository/io/cucumber/usage-formatter/0.1.0/usage-formatter-0.1.0.jar:/Users/yan.lai/.m2/repository/io/cucumber/tag-expressions/8.1.0/tag-expressions-8.1.0.jar:/Users/yan.lai/.m2/repository/io/cucumber/cucumber-expressions/18.0.1/cucumber-expressions-18.0.1.jar:/Users/yan.lai/.m2/repository/io/cucumber/cucumber-json-formatter/0.3.2/cucumber-json-formatter-0.3.2.jar:/Users/yan.lai/.m2/repository/io/cucumber/datatable/7.33.0/datatable-7.33.0.jar:/Users/yan.lai/.m2/repository/io/cucumber/cucumber-plugin/7.33.0/cucumber-plugin-7.33.0.jar:/Users/yan.lai/.m2/repository/io/cucumber/docstring/7.33.0/docstring-7.33.0.jar:/Users/yan.lai/.m2/repository/io/cucumber/html-formatter/22.2.0/html-formatter-22.2.0.jar:/Users/yan.lai/.m2/repository/io/cucumber/junit-xml-formatter/0.11.0/junit-xml-formatter-0.11.0.jar:/Users/yan.lai/.m2/repository/io/cucumber/ci-environment/12.0.0/ci-environment-12.0.0.jar:/Users/yan.lai/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/yan.lai/.m2/repository/io/cucumber/cucumber-junit/7.33.0/cucumber-junit-7.33.0.jar:/Users/yan.lai/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/yan.lai/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/yan.lai/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.20.1/jackson-databind-2.20.1.jar:/Users/yan.lai/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.20/jackson-annotations-2.20.jar:/Users/yan.lai/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.20.1/jackson-core-2.20.1.jar:/Users/yan.lai/.m2/repository/org/codehaus/groovy/groovy/3.0.25/groovy-3.0.25.jar:"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/yan.lai/workspace_atlas_v4/cucumber_rest_assured/target/surefire/surefirebooter-20260119114143899_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/yan.lai/workspace_atlas_v4/cucumber_rest_assured/target/surefire/surefirebooter-20260213140428776_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.11+7-LTS-207"/>
@@ -42,7 +42,6 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/var/folders/zh/5c7068914_d2sbmldfwfr5sm0000gp/T/"/>
     <property name="java.version" value="17.0.11"/>
-    <property name="cucumber.filter.tags" value="@DeletePlace"/>
     <property name="user.dir" value="/Users/yan.lai/workspace_atlas_v4/cucumber_rest_assured"/>
     <property name="os.arch" value="x86_64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
@@ -55,5 +54,315 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Verify if delete place functionality is working" classname="Validating Place APIs" time="10.003"/>
+  <testcase name="Verify if place is being successfully added using AppPlaceAPI #1" classname="Validating Place APIs" time="6.431">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "AAhouse",
+    "address": "World cross center",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "English",
+    "phone_number": "(+91) 983 893 3937"
+}
+HTTP/1.1 200 OK
+Date: Fri, 13 Feb 2026 19:04:32 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "a053dd8f1cca8d18dcf3b8ce0b678ec8",
+    "scope": "APP",
+    "reference": "9ddc1e0a1ec917fa3e9e9f3bcab7fd749ddc1e0a1ec917fa3e9e9f3bcab7fd74",
+    "id": "9ddc1e0a1ec917fa3e9e9f3bcab7fd74"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=a053dd8f1cca8d18dcf3b8ce0b678ec8
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=a053dd8f1cca8d18dcf3b8ce0b678ec8
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 13 Feb 2026 19:04:34 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 240
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "AAhouse",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "World cross center",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "English"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Verify if place is being successfully added using AppPlaceAPI #2" classname="Validating Place APIs" time="4.444">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "BBHouse",
+    "address": "Seaport Harbor",
+    "types": [
+        "shoe park",
+        "shop"
+    ],
+    "website": "http://google.com",
+    "language": "French",
+    "phone_number": "(+91) 983 893 3937"
+}
+HTTP/1.1 200 OK
+Date: Fri, 13 Feb 2026 19:04:37 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "03c6ddbc0e82aa908fb480eafcb7c867",
+    "scope": "APP",
+    "reference": "8e61d030f730d402fa81d6f7033f69398e61d030f730d402fa81d6f7033f6939",
+    "id": "8e61d030f730d402fa81d6f7033f6939"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=03c6ddbc0e82aa908fb480eafcb7c867
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=03c6ddbc0e82aa908fb480eafcb7c867
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 13 Feb 2026 19:04:38 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 235
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-38.383494",
+        "longitude": "33.427362"
+    },
+    "accuracy": "50",
+    "name": "BBHouse",
+    "phone_number": "(+91) 983 893 3937",
+    "address": "Seaport Harbor",
+    "types": "shoe park,shop",
+    "website": "http://google.com",
+    "language": "French"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Verify if delete place functionality is working" classname="Validating Place APIs" time="3.467">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "03c6ddbc0e82aa908fb480eafcb7c867"
+}
+HTTP/1.1 200 OK
+Date: Fri, 13 Feb 2026 19:04:41 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="Call OAuth protected API" classname="Validating Place APIs" time="2.091">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://rahulshettyacademy.com/oauthapi/oauth2/resourceOwner/token
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	client_id=692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com
+				client_secret=erZOWM9g3UtwNRj340YYaK_W
+				grant_type=client_credentials
+				scope=trust
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/x-www-form-urlencoded; charset=ISO-8859-1
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 13 Feb 2026 19:04:44 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Content-Length: 144
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json
+
+{
+    "access_token": "pXUI+RWraG5+jh3588B5Lg==",
+    "token_type": "Bearer",
+    "expires_in": 3600,
+    "refresh_token": "Wt2AXm3GKobpOT/UkMD0jw==",
+    "scope": "create"
+}
+access_token is pXUI+RWraG5+jh3588B5Lg==
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/oauthapi/getCourseDetails?access_token=pXUI%2BRWraG5%2Bjh3588B5Lg%3D%3D
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	accessToken=pXUI+RWraG5+jh3588B5Lg==
+Headers:		Accept=*/*
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 401 Unauthorized
+Date: Fri, 13 Feb 2026 19:04:46 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Strict-Transport-Security: max-age=604800; includeSubDomains
+Content-Length: 555
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json
+
+{
+    "instructor": "RahulShetty",
+    "url": "rahulshettycademy.com",
+    "services": "projectSupport",
+    "expertise": "Automation",
+    "courses": {
+        "webAutomation": [
+            {
+                "courseTitle": "Selenium Webdriver Java",
+                "price": "50"
+            },
+            {
+                "courseTitle": "Cypress",
+                "price": "40"
+            },
+            {
+                "courseTitle": "Protractor",
+                "price": "40"
+            }
+        ],
+        "api": [
+            {
+                "courseTitle": "Rest Assured Automation using Java",
+                "price": "50"
+            },
+            {
+                "courseTitle": "SoapUI Webservices testing",
+                "price": "40"
+            }
+        ],
+        "mobile": [
+            {
+                "courseTitle": "Appium-Mobile Automation using Java",
+                "price": "50"
+            }
+        ]
+    },
+    "linkedIn": "https://www.linkedin.com/in/rahul-shetty-trainer/"
+}
+Course instructor is RahulShetty
+price of SoapUI is 40
+[Selenium Webdriver Java, Cypress, Protractor]
+]]></system-out>
+  </testcase>
 </testsuite>

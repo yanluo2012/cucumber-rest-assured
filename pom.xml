@@ -114,5 +114,23 @@
       <version>3.0.25</version>
     </dependency>
 
+    <!-- Source: https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+    <!-- for processing Excel file -->
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-ooxml</artifactId>
+      <version>5.5.1</version>
+      <scope>compile</scope>
+    </dependency>
+
+    <!-- Source: https://mvnrepository.com/artifact/org.apache.poi/poi -->
+    <!-- for processing Excel file -->
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi</artifactId>
+      <version>5.5.1</version>
+      <scope>compile</scope>
+    </dependency>
+
   </dependencies>
 </project>

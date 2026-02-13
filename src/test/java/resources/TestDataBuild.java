@@ -4,6 +4,9 @@ import pojo.AddPlaceRequest;
 
 import java.util.Arrays;
 
+/**
+ * A test data factory/builder class that creates payloads for API testing.
+ */
 public class TestDataBuild {
     public AddPlaceRequest addPlacePayload(String name, String language, String address) {
         AddPlaceRequest addPlaceRequest = new AddPlaceRequest();

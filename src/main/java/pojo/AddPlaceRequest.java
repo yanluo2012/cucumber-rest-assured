@@ -4,6 +4,9 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.List;
 
+/**
+ * POJO (Plain Old Java Object) class that models the request body structure for Add Place endpoint
+ */
 public class AddPlaceRequest {
     public Location location;
     public int accuracy;
